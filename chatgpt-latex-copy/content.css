@@ -1,0 +1,35 @@
+.cg-latex-host {
+  position: relative !important;
+}
+
+.cg-latex-copy {
+  appearance: none;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border-radius: 6px;
+  background: Canvas;
+  color: CanvasText;
+  cursor: pointer;
+  font: 12px/1.25 ui-sans-serif, system-ui, sans-serif;
+  margin-left: 8px;
+  padding: 3px 6px;
+  opacity: .7;
+  vertical-align: middle;
+}
+
+.cg-latex-copy:hover,
+.cg-latex-copy:focus-visible {
+  opacity: 1;
+  outline: 2px solid #10a37f;
+  outline-offset: 1px;
+}
+
+.katex-display .cg-latex-copy,
+mjx-container[display="true"] .cg-latex-copy {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cg-latex-copied {
+  color: #087f5b;
+}

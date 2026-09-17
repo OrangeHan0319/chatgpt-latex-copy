@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>公式复制设置</title>
+    <style>
+      body { width: 220px; margin: 0; padding: 16px; color: #202123; font: 14px/1.45 system-ui, sans-serif; }
+      h1 { margin: 0 0 10px; font-size: 16px; }
+      label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+      p { margin: 12px 0 0; color: #5b5d63; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <h1>ChatGPT 公式复制</h1>
+    <label><input id="enabled" type="checkbox"> 显示“复制 LaTeX”按钮</label>
+    <p>刷新 ChatGPT 页面后，按钮会出现在已渲染的公式旁。</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
